@@ -150,7 +150,7 @@ function App() {
       }
       await dispatch(editItem(chooseItemReset))
       setNotification(`Table ${item.Table} is free`)
-    }, 900000);
+    }, 90000);
   }
 
   return (
